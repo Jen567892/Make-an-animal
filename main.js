@@ -28,11 +28,11 @@ function new_image(get_img){
     fabric.Image.fromURL(get_img,function (Img)
     {
 bodyPart_img_object = Img;
-bodyPart_img_object .scaleToWidth(block_img_width);
-bodyPart_img_object .scaleToHeight(block_img_height);
+bodyPart_img_object .scaleToWidth(bodyPart_img_width);
+bodyPart_img_object .scaleToHeight(bodyPart_img_height);
 bodyPart_img_object .set({
 });
-canvas.add(block_img_object );
+canvas.add(bodyPart_img_object );
     }
     );
 }
